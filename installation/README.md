@@ -78,7 +78,7 @@ local/score.sh: scoring with word insertion penalty=0.0,0.5,1.0
 # For language model building
 ./kaldi/tools/.install_srilm.sh
 
-# For obtaining pronuciations of out-of-vocabulary words from G2P model
+# For obtaining pronuciations of out-of-vocabulary words from CMU-dict trained G2P model
 ./kaldi/tools/extras/install_sequitur.sh
 ```
 
