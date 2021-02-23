@@ -73,6 +73,14 @@ local/score.sh: scoring with word insertion penalty=0.0,0.5,1.0
 %WER 0.00 [ 0 / 232, 0 ins, 0 del, 0 sub ] exp/mono0a/decode_test_yesno/wer_10_0.0
 ```
 - If you reached here with no problems, you should have a working installation of Kaldi.
+### Other required installations for this exercise
+```
+# For language model building
+./kaldi/tools/.install_srilm.sh
+
+# For obtaining pronuciations of out-of-vocabulary words from G2P model
+./kaldi/tools/extras/install_sequitur.sh
+```
 
 ## After installing Kaldi go the egs folder and clone this repository
 ```
