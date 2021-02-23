@@ -84,6 +84,6 @@ local/score.sh: scoring with word insertion penalty=0.0,0.5,1.0
 
 ## After installing Kaldi go the egs folder and clone this repository
 ```
-cd ./kaldi/egs/ && git clone https://github.com/abnerLing/TORGO-ASR.git
+cd ./kaldi/egs/ && git clone https://github.com/abnerLing/torgo.git
 ```
 
