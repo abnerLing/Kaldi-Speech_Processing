@@ -128,3 +128,84 @@ M01_1_array_0001.wav  M01_1_array_0035.wav  M01_1_array_0069.wav
 M01_1_array_0002.wav  M01_1_array_0036.wav  M01_1_array_0070.wav
 M01_1_array_0003.wav  M01_1_array_0037.wav  M01_1_array_0071.wav
 ```
+
+### We will train our GMM-HMM acoustic model with all but one speaker (speaker - F03)
+- The one speaker left out will be used to evaluate our model.
+- The speaker has moderate dysarthria.
+
+### Kaldi requires 4 main files that need to be created by us
+1. wav.scp
+2. utt2spk
+3. text
+4. spk2utt 
+
+#### 1. wav.scp
+- This is a file containing the file location for each audio file
+- One utterance per line
+- file name \<space> file location
+- eg: <br/>
+```
+F01_1_array_0006 /data2/TORGO/F01/Session1/wav_arrayMic/F01_1_array_0006.wav
+F01_1_array_0007 /data2/TORGO/F01/Session1/wav_arrayMic/F01_1_array_0007.wav
+F01_1_array_0008 /data2/TORGO/F01/Session1/wav_arrayMic/F01_1_array_0008.wav
+F01_1_array_0009 /data2/TORGO/F01/Session1/wav_arrayMic/F01_1_array_0009.wav
+...
+```
+#### 2. utt2spk
+- A file containing the speaker ID for each utterance
+- One utterance per line
+- file name \<space> speaker ID
+- eg: <br/>
+```
+F01_1_array_0006 F01 
+F01_1_array_0007 F01
+F01_1_array_0008 F01
+MC04_2_array_1016 MC04 
+MC04_2_array_1017 MC04 
+MC04_2_array_1018 MC04 
+...
+```
+
+#### 3. text
+- Transcriptions for each utterance 
+- One utterance per line
+- file name \<space> transcription
+- eg: <br/> 
+```
+F01_1_array_0008 EXCEPT IN THE WINTER WHEN THE OOZE OR SNOW OR ICE PREVENTS 
+F01_1_array_0009 PAT
+F01_1_array_0010 UP 
+F01_1_array_0013 KNOW 
+F01_1_array_0014 HE SLOWLY TAKES A SHORT WALK IN THE OPEN AIR EACH DAY 
+MC04_2_array_1019 UPGRADE YOUR STATUS TO REFLECT YOUR WEALTH
+MC04_2_array_1021 EAT YOUR RAISINS OUTDOORS ON THE PORCH STEPS 
+MC04_2_array_1023 THE FAMILY REQUESTS THAT FLOWERS BE OMITTED 
+...
+```
+#### 4. spk2utt
+- All utterances for each speaker
+- One speaker per line
+- speaker ID \<space> utterance
+- can be created with kaldi provided script (eg. utils/utt2spk_to_spk2utt.pl data/train/utt2spk > data/train/spk2utt) <br/>
+- eg: <br/>
+```
+M05 M05_1_array_0005 M05_1_array_0006 M05_1_array_0007 M05_1_array_0008 M05_1_array_0009 ... ... ...
+```
+### All files except wav.scp have been provided.  
+- create wav.scp after renaming all audio files and use the other provided files as a reference.
+
+### Once your data directory looks like below, we can start [training](https://github.com/abnerLing/TORGO-ASR/tree/main/training-evaluation)
+```
+(base) abner@ubuntu:~/kaldi/egs/torgo/data$ tree -L 2
+.
+├── test
+│   ├── spk2utt
+│   ├── text
+│   ├── utt2spk
+│   └── wav.scp
+└── train
+    ├── spk2utt
+    ├── text
+    ├── utt2spk
+    └── wav.scp
+```
