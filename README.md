@@ -5,7 +5,12 @@
 - http://www.cs.toronto.edu/~complingweb/data/TORGO/torgo.html
 - Speakers have speech impairments due to **Cerebral Palsy** or **Amyotrophic Lateral Sclerosis**.
 
-### The goal of this excercise is to improve the recognition accuracy (lower the word-error rate) for moderate-severe dysarthria.
+### Goals of this excercise 
+1. Build a kaldi-based GMM-HMM acoustic model for speech recognition.
+2. Improve the recognition accuracy for impaired speech (data augmentation, hyperparameter tuning, etc.) 
+3. Maybe train a DNN-HMM acoustic model using the alignments from the GMM-HMM model. 
+
+
 ### Sections
 - Part 1: [Installation](https://github.com/abnerLing/TORGO-ASR/tree/main/installation)
 - Part 2: [Data Preparation](https://github.com/abnerLing/TORGO-ASR/tree/main/data%20prep)
