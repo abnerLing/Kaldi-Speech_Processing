@@ -1,6 +1,6 @@
 ![alt text](kaldi.png "Title")
 # TORGO-ASR
-## This repository is a brief tutorial on using Kaldi for Dysarthric Speech Recognition.
+## Tutorial on using Kaldi for Dysarthric Speech Recognition.
 ### The data used is provided by the University of Toronto for free. 
 - http://www.cs.toronto.edu/~complingweb/data/TORGO/torgo.html
 - Speakers have speech impairments due to **Cerebral Palsy** or **Amyotrophic Lateral Sclerosis**.
