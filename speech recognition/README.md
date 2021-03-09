@@ -169,7 +169,7 @@ Things to consider: <br/>
     - See [speed perturbation](https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/utils/data/perturb_data_dir_speed_3way.sh)
     - Recommended articles [[1]](https://188.166.204.102/archive/Interspeech_2018/pdfs/1751.pdf), [[2]](https://ieeexplore.ieee.org/abstract/document/8683091), [[3]](https://ieeexplore.ieee.org/abstract/document/8462290), [[4]](https://isca-speech.org/archive/Interspeech_2020/pdfs/1161.pdf)
 - Increasing data size?
-    - See [UASpeech database](http://www.isle.illinois.edu/sst/data/UASpeech/) (speech database with dysarthric speaker)
+    - See [UASpeech database](http://www.isle.illinois.edu/sst/data/UASpeech/) (speech database with dysarthric speakers)
     - [Librispeech](https://www.openslr.org/12) (large 1000 hour corpus)
 - Adjusting Kaldi's internal default parameters
     - See [Improving Acoustic Models in TORGO Dysarthric Speech Database](https://ieeexplore.ieee.org/abstract/document/8283503)
