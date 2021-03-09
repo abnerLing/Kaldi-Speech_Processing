@@ -108,4 +108,5 @@ $train_cmd exp/ivector_eval_1024/log/plda_score.log \
 awk '{print $3}' exp/trials_out | paste - $trials | awk '{print $1, $4}' | compute-eer -
 ```
 #### Get results
-```LOG (compute-eer[5.5.888~1-d619]:main():compute-eer.cc:136) Equal error rate is 5.18303%, at threshold -0.430768```
+```LOG (compute-eer[5.5.888~1-d619]:main():compute-eer.cc:136) Equal error rate is 26.8414%, at threshold -1.32142```
+- Results when only using the TORGO dataset for training/testing
