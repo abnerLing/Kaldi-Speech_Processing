@@ -15,5 +15,34 @@
 ### Sections
 - Part 1: [Installation](https://github.com/abnerLing/TORGO-ASR/tree/main/installation)
 - Part 2: [Data Preparation](https://github.com/abnerLing/TORGO-ASR/tree/main/data%20prep)
-- Part 3: [Training & Evaluation](https://github.com/abnerLing/TORGO-ASR/tree/main/training-evaluation)
-- Part 4: Speaker Recognition 
+- Part 3: [Speech Recognition (acoustic and Language model training)](https://github.com/abnerLing/TORGO-ASR/tree/main/training-evaluation)
+- Part 4: Speaker Recognition (using i-vectors)
+
+
+### Section Details
+- Part 1 Installation
+  - Kaldi 
+  - The SRI Language Modeling Toolkit
+  - Sequitur Grapheme-to-Phoneme converter
+  - Intel MKL (Math Kernel Library)
+- Part 2 Data Preparation
+  - Audio data download
+  - Files that need to be created by us
+  - Kaldi directory structure
+- Part 3 Speech Recognition
+  - N-gram language model building
+  - MFCC extraction + CMVN (cepstral mean and variance normalization)
+  - Monophone training
+  - Triphone training
+    - Delta + delta-delta training computes dynamic coefficients to supplement the MFCC features.
+    - Linear Discriminant Analysis – Maximum Likelihood Linear Transform (LDA-MLLT to reduce feature space)
+    - Speaker Adaptive Training (SAT performs speaker and noise normalization) 
+  - Alignment with Feature Space Maximum Likelihood Linear Regression (fmllr features are speaker-normalized features)
+- Part 4 Speaker Recognition (or identification)
+  - MFCC feature extraction
+  - Voice Activity detection (compute energy based VAD output)
+  - Train Gaussian Mixture Model - Universal Background Model (GMM-UBM)
+  - Train ivector extractor
+  - Extract ivector from audio files
+  - Train a Probabilistic Linear Discriminant Analysis (PLDA) model
+  - Compute PLDA score (Equal Error Rate)
