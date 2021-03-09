@@ -40,6 +40,7 @@
     - Linear Discriminant Analysis – Maximum Likelihood Linear Transform (LDA-MLLT to reduce feature space)
     - Speaker Adaptive Training (SAT performs speaker and noise normalization) 
   - Alignment with Feature Space Maximum Likelihood Linear Regression (fmllr features are speaker-normalized features)
+  - Use GMM-HMM generated alignments to train a deep neural network acoustic model
 - Part 4 **Speaker Recognition** (or identification)
   - MFCC feature extraction
   - Voice Activity detection (compute energy based VAD output)
