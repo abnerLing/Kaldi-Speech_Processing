@@ -1,5 +1,5 @@
 # Kaldi for Dysarthic Speech Recognition
-- **Part 3: Training & Evaluation**
+- **Part 3: Speech Recognition**
 - DNN-based acoustic model training
 
 
