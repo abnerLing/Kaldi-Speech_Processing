@@ -1,5 +1,5 @@
 # Kaldi for Dysarthic Speech Recognition
-- **Part 3: Training & Evaluation**
+- **Part 3: Speech Recognition**
 - GMM-based acoustic model training
 
 ### The general work-flow is as follows:
