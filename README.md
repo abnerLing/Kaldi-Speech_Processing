@@ -20,16 +20,16 @@
 
 
 ### Section Details
-- Part 1 Installation
+- Part 1 **Installation**
   - Kaldi 
   - The SRI Language Modeling Toolkit
   - Sequitur Grapheme-to-Phoneme converter
   - Intel MKL (Math Kernel Library)
-- Part 2 Data Preparation
+- Part 2 **Data Preparation**
   - Audio data download
   - Files that need to be created by us
   - Kaldi directory structure
-- Part 3 Speech Recognition
+- Part 3 **Speech Recognition**
   - N-gram language model building
   - MFCC extraction + CMVN (cepstral mean and variance normalization)
   - Monophone training
@@ -38,7 +38,7 @@
     - Linear Discriminant Analysis – Maximum Likelihood Linear Transform (LDA-MLLT to reduce feature space)
     - Speaker Adaptive Training (SAT performs speaker and noise normalization) 
   - Alignment with Feature Space Maximum Likelihood Linear Regression (fmllr features are speaker-normalized features)
-- Part 4 Speaker Recognition (or identification)
+- Part 4 **Speaker Recognition** (or identification)
   - MFCC feature extraction
   - Voice Activity detection (compute energy based VAD output)
   - Train Gaussian Mixture Model - Universal Background Model (GMM-UBM)
