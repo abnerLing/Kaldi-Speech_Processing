@@ -1,5 +1,5 @@
 ![alt text](kaldi.png "Title")
-# Speech Processing with TORGO dataset
+# Speech Processing with the TORGO dataset
 ## Tutorial on using Kaldi for Dysarthric Speech Recognition and Speaker Recognition.
 ### The data used is provided by the University of Toronto for free. 
 - http://www.cs.toronto.edu/~complingweb/data/TORGO/torgo.html
