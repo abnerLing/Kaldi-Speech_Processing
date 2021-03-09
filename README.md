@@ -34,13 +34,19 @@
 - Part 3 **Speech Recognition**
   - N-gram language model building
   - MFCC extraction + CMVN (cepstral mean and variance normalization)
-  - Monophone training
-  - Triphone training
-    - Delta + delta-delta training computes dynamic coefficients to supplement the MFCC features.
-    - Linear Discriminant Analysis – Maximum Likelihood Linear Transform (LDA-MLLT to reduce feature space)
-    - Speaker Adaptive Training (SAT performs speaker and noise normalization) 
-  - Alignment with Feature Space Maximum Likelihood Linear Regression (fmllr features are speaker-normalized features)
-  - Use GMM-HMM generated alignments to train a deep neural network acoustic model
+  - **GMM-HMM training**
+     - Monophone training
+     - Triphone training
+      - Delta + delta-delta training computes dynamic coefficients to supplement the MFCC features.
+      - Linear Discriminant Analysis – Maximum Likelihood Linear Transform (LDA-MLLT to reduce feature space)
+      - Speaker Adaptive Training (SAT performs speaker and noise normalization) 
+    - Alignment with Feature Space Maximum Likelihood Linear Regression (fmllr features are speaker-normalized features)
+  - **DNN-based acoustic model**
+    - Use GMM-HMM generated alignments to train a deep neural network acoustic model
+    - Restricted Boltzmann Machine (RBM) pre-training
+    - Frame cross-entropy training
+    - Sequence-training optimizing state-level minimum Bayes risk (sMBR(
+   
 - Part 4 **Speaker Recognition** (or identification)
   - MFCC feature extraction
   - Voice Activity detection (compute energy based VAD output)
