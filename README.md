@@ -9,14 +9,14 @@
 1. Build a kaldi-based GMM-HMM acoustic model for speech recognition.
 2. Improve the recognition accuracy for impaired speech (data augmentation, hyperparameter tuning, etc.) 
 3. Train a DNN-HMM acoustic model using the alignments from the GMM-HMM model. 
-4. Perform speaker identification/recognition via x-vectors.
+4. Perform speaker identification/recognition via i-vectors.
 
 
 ### Sections
 - Part 1: [Installation](https://github.com/abnerLing/TORGO-ASR/tree/main/installation)
 - Part 2: [Data Preparation](https://github.com/abnerLing/TORGO-ASR/tree/main/data%20prep)
 - Part 3: [Speech Recognition (acoustic and Language model training)](https://github.com/abnerLing/TORGO-ASR/tree/main/training-evaluation)
-- Part 4: Speaker Recognition (using i-vectors)
+- Part 4: [Speaker Recognition (using i-vectors)](https://github.com/abnerLing/TORGO-ASR/tree/main/speaker%20recognition)
 
 
 ### Section Details
