@@ -45,7 +45,7 @@
     - Use GMM-HMM generated alignments to train a deep neural network acoustic model
     - Restricted Boltzmann Machine (RBM) pre-training
     - Frame cross-entropy training
-    - Sequence-training optimizing state-level minimum Bayes risk (sMBR(
+    - Sequence-training optimizing state-level minimum Bayes risk (sMBR)
    
 - Part 4 **Speaker Recognition** (or identification)
   - MFCC feature extraction
