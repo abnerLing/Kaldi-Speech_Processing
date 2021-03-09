@@ -1,7 +1,6 @@
 # Kaldi for Dysarthic Speech Recognition
-- Part 1: Installation
-- Part 2: Data Preparation
 - **Part 3: Training & Evaluation**
+- GMM-based acoustic model training
 
 ### The general work-flow is as follows:
 1. Prepare data
