@@ -13,6 +13,11 @@
 
 ### All the above steps will be written in a 'run.sh' recipe which runs kaldi-provided scripts
 - The provided run script is divided into 4 stages (language model building, feature extraction, acoustic model training, and decoding)
+- Also, run the below commands to soft link required folders for feature extraction, training, etc.
+ ```
+ ln -s kaldi/egs/wsj/s5/utils
+ ln -s kaldi/egs/wsj/s5/steps
+ ```   
 
 #### Example code from run.sh
 
