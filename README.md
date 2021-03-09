@@ -9,7 +9,7 @@
 1. Build a kaldi-based GMM-HMM acoustic model for speech recognition.
 2. Improve the recognition accuracy for impaired speech (data augmentation, hyperparameter tuning, etc.) 
 3. Train a DNN-HMM acoustic model using the alignments from the GMM-HMM model. 
-4. Perform speaker identification/recognition via i-vectors.
+4. Perform speaker identification/recognition via i-vectors and improve baseline results.
 
 
 ### Sections
