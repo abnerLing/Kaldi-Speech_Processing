@@ -158,10 +158,10 @@ steps/decode_fmllr.sh: doing a final pass of acoustic rescoring.
 ```
 cat /home/abner/kaldi/egs/torgo/exp/train/tri4/decode_test/scoring_kaldi/best_wer
 ```
-%WER 39.12 [ 1089 / 2784, 279 ins, 112 del, 698 sub ] /home/abner/kaldi/egs/torgo/exp/train/tri4/decode_test/wer_17_0.0
+%WER 35.78 [ 996 / 2784, 230 ins, 119 del, 647 sub ] /home/abner/kaldi/egs/torgo/asr/exp/tri4/decode/wer_17_0.5
 ```
 
-#### Our model has a WER of 39.12%
+#### Our model has a WER of 35.78%
 
 
 
