@@ -4,8 +4,39 @@
 - original i-vector article for speaker verification (see [Front-End Factor Analysis for Speaker Verification](https://ieeexplore.ieee.org/abstract/document/5545402?casa_token=Ri80oe_Y9K4AAAAA:FVar6WkCvIZFr2qn1U19M2ovlBA5fw7y0XtZG0tlvOG2xnfWjmJBoV8hq-6vZqb2tIsGlL2RFQ)).
 - For this part we will train models on healthy speakers (7 speakers) and test on speakers with dysarthria (8 speakers).
 - Clone the below repository (if you haven't already) in the kaldi/egs/ directory 
+- Work in the 'ver' directory
 ```
 git clone https://github.com/abnerLing/torgo.git
+```
+
+```
+abner@ubuntu:~/kaldi/egs/torgo$ tree -L 2
+.
+├── README.md
+├── asr
+│   ├── cmd.sh
+│   ├── conf
+│   ├── data
+│   ├── exp
+│   ├── local
+│   ├── mfcc
+│   ├── path.sh
+│   ├── run.sh
+│   ├── steps -> ../../wsj/s5/steps/
+│   └── utils -> ../../wsj/s5/utils/
+├── rename.py
+└── ver
+    ├── cmd.sh
+    ├── conf
+    ├── data
+    ├── exp
+    ├── local
+    ├── mfcc
+    ├── path.sh
+    ├── run.sh
+    ├── sid -> ../../voxceleb/v1/sid/
+    ├── steps -> ../../wsj/s5/steps/
+    └── utils -> ../../wsj/s5/utils/
 ```
 
 ### Extract MFCCs and compute voice activity detection outputs
