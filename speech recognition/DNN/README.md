@@ -82,7 +82,7 @@ cat exp/tri4/decode/scoring_kaldi/best_wer
 cat exp/dnn4b_pretrain-dbn_dnn_smbr/decode_it3/scoring_kaldi/best_wer
 %WER 28.38 [ 790 / 2784, 197 ins, 85 del, 508 sub ] exp/dnn4b_pretrain-dbn_dnn_smbr/decode_it3/wer_15_0.0
 ```
-- Our DNN-based acoustic model lowered the WER by 7.58% with no hyperparameter tuning 
+- Our DNN-based acoustic model lowered the WER by 7.4% with no hyperparameter tuning 
 
 | Errors  | GMM  | DNN |
 | -------- | ------- | ------- |
