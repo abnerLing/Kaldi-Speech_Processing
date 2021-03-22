@@ -4,11 +4,11 @@
 - Clone the below repository in the kaldi/egs/ directory 
 - Work in the 'asr' directory
 ```
-git clone https://github.com/abnerLing/torgo.git
+git clone https://github.com/abnerLing/torgo-speech_processing.git
 ```
 
 ```
-abner@ubuntu:~/kaldi/egs/torgo$ tree -L 2
+abner@ubuntu:~/kaldi/egs/torgo-speech_processing$ tree -L 2
 .
 ├── README.md
 ├── asr
@@ -35,9 +35,6 @@ abner@ubuntu:~/kaldi/egs/torgo$ tree -L 2
     ├── sid -> ../../voxceleb/v1/sid/
     ├── steps -> ../../wsj/s5/steps/
     └── utils -> ../../wsj/s5/utils/
-```
-```
-git clone https://github.com/abnerLing/torgo.git
 ```
 
 ### The general work-flow is as follows:
