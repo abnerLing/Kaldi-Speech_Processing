@@ -194,7 +194,7 @@ M05 M05_1_array_0005 M05_1_array_0006 M05_1_array_0007 M05_1_array_0008 M05_1_ar
 ### All files except wav.scp have been provided.  
 - create wav.scp after renaming all audio files and use the other provided files as a reference.
 
-### Once your data directory looks like below, we can start [training](https://github.com/abnerLing/TORGO-ASR/tree/main/speech%20recognition)
+### Once your data directory looks like below, we can start [training](https://github.com/abnerLing/Kaldi-Speech_Processing/tree/main/speech%20recognition)
 ```
 (base) abner@ubuntu:~/kaldi/egs/torgo/data$ tree -L 2
 .
