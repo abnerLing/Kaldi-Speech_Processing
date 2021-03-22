@@ -86,9 +86,9 @@ cat exp/dnn4b_pretrain-dbn_dnn_smbr/decode_it3/scoring_kaldi/best_wer
 
 | Errors  | GMM  | DNN |
 | -------- | ------- | ------- |
-| Insertion  | 234  | 197  |
-| Deletion  | 122  | 85  |
-| Substitution  | 645  | 508  |
-| Total  | 1001  | 790  |
+| Insertion  | 230  | 197  |
+| Deletion  | 119  | 85  |
+| Substitution  | 647  | 508  |
+| Total  | 996  | 790  |
 |    |    |    |
-| WER  | 35.96%  | 28.38%  |
+| WER  | 35.78%  | 28.38%  |
