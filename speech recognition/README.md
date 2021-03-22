@@ -2,6 +2,40 @@
 - **Part 3: Speech Recognition**
 - GMM-based acoustic model training
 - Clone the below repository in the kaldi/egs/ directory 
+- Work in the 'asr' directory
+```
+git clone https://github.com/abnerLing/torgo.git
+```
+
+```
+abner@ubuntu:~/kaldi/egs/torgo$ tree -L 2
+.
+├── README.md
+├── asr
+│   ├── cmd.sh
+│   ├── conf
+│   ├── data
+│   ├── exp
+│   ├── local
+│   ├── mfcc
+│   ├── path.sh
+│   ├── run.sh
+│   ├── steps -> ../../wsj/s5/steps/
+│   └── utils -> ../../wsj/s5/utils/
+├── rename.py
+└── ver
+    ├── cmd.sh
+    ├── conf
+    ├── data
+    ├── exp
+    ├── local
+    ├── mfcc
+    ├── path.sh
+    ├── run.sh
+    ├── sid -> ../../voxceleb/v1/sid/
+    ├── steps -> ../../wsj/s5/steps/
+    └── utils -> ../../wsj/s5/utils/
+```
 ```
 git clone https://github.com/abnerLing/torgo.git
 ```
