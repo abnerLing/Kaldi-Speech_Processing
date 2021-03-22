@@ -6,11 +6,11 @@
 - Clone the below repository (if you haven't already) in the kaldi/egs/ directory 
 - Work in the 'ver' directory
 ```
-git clone https://github.com/abnerLing/torgo.git
+git clone https://github.com/abnerLing/torgo-speech_processing.git
 ```
 
 ```
-abner@ubuntu:~/kaldi/egs/torgo$ tree -L 2
+abner@ubuntu:~/kaldi/egs/torgo-speech_processing$ tree -L 2
 .
 ├── README.md
 ├── asr
