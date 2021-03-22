@@ -3,7 +3,7 @@
 ### Now we are going to use i-vectors to recognize speakers 
 - original i-vector article for speaker verification (see [Front-End Factor Analysis for Speaker Verification](https://ieeexplore.ieee.org/abstract/document/5545402?casa_token=Ri80oe_Y9K4AAAAA:FVar6WkCvIZFr2qn1U19M2ovlBA5fw7y0XtZG0tlvOG2xnfWjmJBoV8hq-6vZqb2tIsGlL2RFQ)).
 - For this part we will train models on healthy speakers (7 speakers) and test on speakers with dysarthria (8 speakers).
-- - Clone the below repository (if you haven't already) in the kaldi/egs/ directory 
+- Clone the below repository (if you haven't already) in the kaldi/egs/ directory 
 ```
 git clone https://github.com/abnerLing/torgo.git
 ```
