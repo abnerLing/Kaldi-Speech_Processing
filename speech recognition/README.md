@@ -1,6 +1,10 @@
 # Kaldi for Dysarthic Speech Recognition
 - **Part 3: Speech Recognition**
 - GMM-based acoustic model training
+- Clone the below repository in the kaldi/egs/ directory 
+```
+git clone https://github.com/abnerLing/torgo.git
+```
 
 ### The general work-flow is as follows:
 1. Prepare data
