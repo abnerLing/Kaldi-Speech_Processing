@@ -99,7 +99,7 @@ abner@ubuntu:/data/TORGO/M01$ tree
 0002.wav  0015.wav  0028.wav  0041.wav	0054.wav  0067.wav  0080.wav  0093.wav
 0003.wav  0016.wav  0029.wav  0042.wav	0055.wav  0068.wav  0081.wav  0094.wav
 ```
-- rename.py
+- rename.py (feel free to write your own script to change file names)
 ```
 import os
 
