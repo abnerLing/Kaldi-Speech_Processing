@@ -170,7 +170,7 @@ MC04_2_array_1023 THE FAMILY REQUESTS THAT FLOWERS BE OMITTED
 ```
 M05 M05_1_array_0005 M05_1_array_0006 M05_1_array_0007 M05_1_array_0008 M05_1_array_0009 ... ... ...
 ```
-### All files except text and wav.scp have been provided.  
+### utt2spk and spk2utt files have been provided [HERE](https://github.com/abnerLing/torgo-speech_processing/tree/main/asr/data).  
 - Create wav.scp after renaming all audio files and use the other provided files as a reference.
 - Create text file with punctuation removed and capitalize all words.
 
