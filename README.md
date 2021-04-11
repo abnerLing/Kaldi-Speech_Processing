@@ -13,7 +13,7 @@
 
 
 ### Sections
-- Part 1: [Installation](https://github.com/abnerLing/TORGO-ASR/tree/main/installation)& [Data Preparation](https://github.com/abnerLing/TORGO-ASR/tree/main/data%20prep)
+- Part 1: [Installation](https://github.com/abnerLing/TORGO-ASR/tree/main/installation) & [Data Preparation](https://github.com/abnerLing/TORGO-ASR/tree/main/data%20prep)
 - Part 2: [Speech Recognition (acoustic and Language model training)](https://github.com/abnerLing/TORGO-ASR/tree/main/speech%20recognition)
   - [GMM-HMM acoustic model](https://github.com/abnerLing/TORGO-ASR/tree/main/speech%20recognition#stage-3-acoustic-model-training)
 - Part 3: [DNN-HMM acoustic model](https://github.com/abnerLing/TORGO-ASR/tree/main/speech%20recognition/DNN)
