@@ -99,28 +99,7 @@ abner@ubuntu:/data/TORGO/M01$ tree
 0002.wav  0015.wav  0028.wav  0041.wav	0054.wav  0067.wav  0080.wav  0093.wav
 0003.wav  0016.wav  0029.wav  0042.wav	0055.wav  0068.wav  0081.wav  0094.wav
 ```
-- rename.py (feel free to write your own script to change file names)
-```
-import os
 
-mydir = "/data2/TORGO/" # change to your TORGO directory location
-
-for subdir, dirs, files in os.walk(mydir):
-    for file in files:
-        filepath = subdir + os.sep + file
-        
-        if filepath.endswith(".wav"):
-            name = filepath.split('/')
-            ID = name[-4]
-            SESS = name[-3][-1]
-            MIC = name[-2].split('_')[1][:-3]
-            WAV = name[-1] 
-            
-            new_name = ID + '_' + SESS + '_' + MIC + '_' + WAV
-            #print(new_name)
-            new_filepath = subdir + os.sep + new_name
-            os.rename(filepath, new_filepath)
-```
 #### New audio file names
 ```ls /data2/TORGO/M01/Session1/wav_arrayMic/ # Change to your directory ```
 ```
@@ -191,8 +170,9 @@ MC04_2_array_1023 THE FAMILY REQUESTS THAT FLOWERS BE OMITTED
 ```
 M05 M05_1_array_0005 M05_1_array_0006 M05_1_array_0007 M05_1_array_0008 M05_1_array_0009 ... ... ...
 ```
-### All files except wav.scp have been provided.  
-- create wav.scp after renaming all audio files and use the other provided files as a reference.
+### All files except text and wav.scp have been provided.  
+- Create wav.scp after renaming all audio files and use the other provided files as a reference.
+- Create text file with punctuation removed and capitalize all words.
 
 ### Once your data directory looks like below, we can start [training](https://github.com/abnerLing/Kaldi-Speech_Processing/tree/main/speech%20recognition)
 ```
