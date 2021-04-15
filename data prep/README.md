@@ -174,7 +174,7 @@ M05 M05_1_array_0005 M05_1_array_0006 M05_1_array_0007 M05_1_array_0008 M05_1_ar
 - Create wav.scp after renaming all audio files and use the other provided files as a reference.
 - Create text file with punctuation removed and capitalize all words.
 
-### Once your data directory looks like below, we can start [training](https://github.com/abnerLing/Kaldi-Speech_Processing/tree/main/speech%20recognition)
+### Once your data directory looks like below, we can start training.
 ```
 (base) abner@ubuntu:~/kaldi/egs/torgo/data$ tree -L 2
 .
